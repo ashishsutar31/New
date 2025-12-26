@@ -2,7 +2,7 @@ pipeline {
 
 	agent any
 
-	stage {
+	stages {
 	   stage('pipeline') {
 	      steps {
 		 echo "this is v1 branch"
