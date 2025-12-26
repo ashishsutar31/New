@@ -1,8 +1,8 @@
-pipelin {
+pipeline {
 
 	agent any
 
-	stages {
+	stage {
 	   stage('pipeline') {
 	      steps {
 		 echo "this is main branch"
